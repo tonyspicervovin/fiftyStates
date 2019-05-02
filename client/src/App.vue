@@ -16,7 +16,7 @@ import StateList from '@/components/StateList'
 export default {
   name: 'app',
   components: {
-    Header, Footer, StateList
+    Header, Footer
   }
 }
 </script>
