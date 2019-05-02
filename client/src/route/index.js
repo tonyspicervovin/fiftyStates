@@ -13,6 +13,11 @@ export default new Router({
         {
             path: '/about',
             component: About
+        },
+        {
+            path: '/detail/:state',
+            name: 'detail',
+            component: StateDetail
         }
     ]
 })

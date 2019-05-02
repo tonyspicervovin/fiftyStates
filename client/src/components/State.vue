@@ -8,6 +8,12 @@
             v-model="stateVisited" v-on:change="$emit('isVisited', stateName, stateVisited)">
         </p>
 
+        <p>
+            <router-link v-bind:to="{ name: 'detail', params: {state: stateName }  }">
+                <img class="map-icon" src="/Users/Tony/Desktop/fiftyStates/client/src/assets/icons8-map-64.png">
+            </router-link>
+        </p>
+
     </div>
 </template>
 
@@ -35,5 +41,9 @@ export default {
         width: 10cm;
         border: 1px whitesmoke;
     
+    }
+    .map-icon {
+        width: 2em;
+        height: 2em;
     }
 </style>
