@@ -30,7 +30,7 @@ export default {
             state: {
                 name: ''
             },
-            url: 'http://{s}.title.osm.org/{z}/{x}/{y}.png',
+            url: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
             zoom: 2,
             center: [44, -103],
             boumds: null
