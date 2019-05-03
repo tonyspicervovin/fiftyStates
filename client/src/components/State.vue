@@ -10,7 +10,7 @@
 
         <p>
             <router-link v-bind:to="{ name: 'detail', params: {state: stateName }  }">
-                <img class="map-icon" src="/Users/Tony/Desktop/fiftyStates/client/src/assets/icons8-map-64.png">
+                <img class ="map-icon" src="@/assets/icons8-map-64.png">
             </router-link>
         </p>
 

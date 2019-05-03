@@ -11,6 +11,8 @@
 
     <p class="text-right p-2">Header image by
         <a href="https://unsplash.com/photos/KpBXA0s90YI">@chrislawton via Unsplash</a>
+        <br>
+        <a href="https://icons8.com/icon/43632/map">Map icon by Icons8 </a>
     </p>
 
     </div>

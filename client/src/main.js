@@ -15,6 +15,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 Vue.prototype.$stateService = StateAPIService
 
+import "leaflet/dist/leaflet.css"
 
 new Vue({
   render: h => h(App),
