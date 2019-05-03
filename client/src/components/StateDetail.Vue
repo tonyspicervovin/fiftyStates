@@ -11,14 +11,14 @@
                 style="height: 100%; width: 100%"
                 v-bind:zoom="zoom"
                 v-bind:center="center">
-                <l-title-layer :url="url"></l-title-layer>
+                <l-tile-layer :url="url"></l-tile-layer>
             </l-map>
     </div>
     </div>
 </template>
 
 <script>
-import { LMap, LTitleLayer } from 'vue2-leaflet'
+import { LMap, LTileLayer } from 'vue2-leaflet'
 
 export default {
     name: 'StateDetail',
