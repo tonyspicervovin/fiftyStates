@@ -55,4 +55,7 @@ export default {
 </script>
 
 <style scoped>
+#map-container {
+    height: 200px;
+}
 </style>
